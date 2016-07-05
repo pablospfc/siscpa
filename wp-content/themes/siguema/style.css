@@ -1,0 +1,61 @@
+/*
+	Theme Name: SigUema | Tema WordPress nos padrões do sistema SIG
+	Author: Ronaldo Neves
+	Author URI: http://nicholasandre.com.br
+	Description: Tema desenvolvido nos padrões do sistema SIG
+	Version: 1.0
+*/
+
+*, *:before, *:after{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    letter-spacing: 0em;
+    vertical-align: middle;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body { font-family: Verdana, sans-serif; font-size: 0.8em; line-height: 25px; }
+a { text-decoration: none; }
+
+.container { width: 100%; float: left; }
+.content { width: 80%; margin: 0 10%; }
+
+.clear { clear: both; }
+
+/* background */
+.bg-blue { background-color: #404E82; }
+
+/* color */
+.colorWhite { color: #FFF !important; }
+
+/* header */
+header { border-bottom: 3px solid #D99C44; padding: 1px 4px 0 4px; display: block; }
+header h1 { float: left; display: inline-block; font-size: 1.3em; }
+header h3 { float: left; display: inline-block; font-size: 1.1em; font-weight: normal; margin-left: 5px; line-height: 26px; }
+header h3:before { content: ' - '; }
+header a { float: right; color: #FEF9DC; font-size: 1.1em; padding-right: 1%; width: 5%; display: inline-block; font-weight: bold; text-align: right; }
+
+.cabecalho { background: #C4D2EB; color: #222; min-height: 48px; float: left; padding: 5px; position: relative; margin-bottom: 20px; }
+.cabecalho p { line-height: 20px; margin-bottom: 10px; float: left; width: 80%; }
+.cabecalho .periodo { float: right; width: 20%; }
+
+/* footer */
+footer { border-top: 3px solid #D99C44; text-align: center; margin-top: 20px; }
+
+@media (max-width:730px){
+    .content { width: 90%; margin: 0 5%; }
+}
+
+@media (max-width: 650px){
+    header h1, header h3, header a { display: block; width: 100%; margin: 0; }
+    header h3:before { content: ''; }
+    .cabecalho .periodo { float: left; width: 100%; font-size: 0.8em; }
+}
+
+@media (max-width: 360px){
+    .content { width: 95%; margin: 0 2.5%; }
+    
+}

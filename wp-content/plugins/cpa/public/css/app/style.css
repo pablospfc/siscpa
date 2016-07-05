@@ -1,0 +1,11 @@
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+
+.wp-toolbar > body, .wp-toolbar{
+    background-color: rgb(249, 249, 249);
+}
+
+.text-center-vertical{
+    vertical-align: middle !important;
+}

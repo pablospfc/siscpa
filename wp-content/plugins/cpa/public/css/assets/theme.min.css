@@ -1,0 +1,1884 @@
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4 {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+body.inverse, body.inverse .form-control {
+    color: rgb(255, 255, 255);
+}
+
+body.inverse .modal, body.inverse .modal .form-control, body.inverse .panel-default, body.inverse .panel-default .form-control, body.inverse .card, body.inverse .card .form-control {
+    color: initial;
+    background-color: initial;
+}
+
+.questionario a, a:hover, a:focus {
+    color: rgb(156, 39, 176);
+}
+
+.questionario a .material-icons, a:hover .material-icons, a:focus .material-icons {
+    vertical-align: middle;
+}
+
+.form-horizontal .radio, .form-horizontal .checkbox, .form-horizontal .radio-inline, .form-horizontal .checkbox-inline {
+    padding-top: 0px;
+}
+
+.form-horizontal .radio {
+    margin-bottom: 10px;
+}
+
+.form-horizontal label.control-label {
+    margin: 0px;
+}
+
+.btn, .input-group-btn .btn {
+    border: none;
+    border-radius: 3px;
+    position: relative;
+    padding: 12px 30px;
+    margin: 10px 1px;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    will-change: box-shadow, transform;
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    background: transparent;
+}
+
+.btn:not(.btn-raised), .input-group-btn .btn:not(.btn-raised) {
+    box-shadow: none;
+}
+
+.btn:not(.btn-raised), .btn:not(.btn-raised).btn-default, .input-group-btn .btn:not(.btn-raised), .input-group-btn .btn:not(.btn-raised).btn-default {
+    color: rgba(0, 0, 0, 0.870588);
+}
+
+.btn:not(.btn-raised).btn-inverse, .input-group-btn .btn:not(.btn-raised).btn-inverse {
+    color: rgb(63, 81, 181);
+}
+
+.btn:not(.btn-raised).btn-primary, .input-group-btn .btn:not(.btn-raised).btn-primary {
+    color: #3779b3;
+}
+
+.btn:not(.btn-raised).btn-success, .input-group-btn .btn:not(.btn-raised).btn-success {
+    color: rgb(76, 175, 80);
+}
+
+.btn:not(.btn-raised).btn-info, .input-group-btn .btn:not(.btn-raised).btn-info {
+    color: rgb(3, 169, 244);
+}
+
+.btn:not(.btn-raised).btn-warning, .input-group-btn .btn:not(.btn-raised).btn-warning {
+    color: rgb(251, 192, 45);
+}
+
+.btn:not(.btn-raised).btn-danger, .input-group-btn .btn:not(.btn-raised).btn-danger {
+    color: rgb(244, 67, 54);
+}
+
+.btn:not(.btn-raised):not(.btn-link):hover, .btn:not(.btn-raised):not(.btn-link):focus, .input-group-btn .btn:not(.btn-raised):not(.btn-link):hover, .input-group-btn .btn:not(.btn-raised):not(.btn-link):focus {
+    background-color: transparent;
+}
+
+.btn:focus, .btn:active, .btn:active:focus, .input-group-btn .btn:focus, .input-group-btn .btn:active, .input-group-btn .btn:active:focus {
+    outline: 0px;
+}
+
+.btn.btn-raised, .btn.btn-raised.btn-default, .btn.btn-fab, .btn.btn-fab.btn-default, .btn-group-raised .btn, .btn-group-raised .btn.btn-default, .input-group-btn .btn.btn-raised, .input-group-btn .btn.btn-raised.btn-default, .input-group-btn .btn.btn-fab, .input-group-btn .btn.btn-fab.btn-default, .btn-group-raised .input-group-btn .btn, .btn-group-raised .input-group-btn .btn.btn-default {
+    color: rgba(0, 0, 0, 0.870588);
+    background-color: rgb(238, 238, 238);
+}
+
+.btn.btn-raised.btn-primary, .btn.btn-fab.btn-primary, .btn-group-raised .btn.btn-primary, .input-group-btn .btn.btn-raised.btn-primary, .input-group-btn .btn.btn-fab.btn-primary, .btn-group-raised .input-group-btn .btn.btn-primary {
+    color: rgb(255, 255, 255);
+    background-color: #3779b3;
+}
+
+.btn.btn-raised.btn-success, .btn.btn-fab.btn-success, .btn-group-raised .btn.btn-success, .input-group-btn .btn.btn-raised.btn-success, .input-group-btn .btn.btn-fab.btn-success, .btn-group-raised .input-group-btn .btn.btn-success {
+    color: rgb(255, 255, 255);
+    background-color: #25a24c;
+}
+
+.btn.btn-raised.btn-danger, .btn.btn-fab.btn-danger, .btn-group-raised .btn.btn-danger, .input-group-btn .btn.btn-raised.btn-danger, .input-group-btn .btn.btn-fab.btn-danger, .btn-group-raised .input-group-btn .btn.btn-danger {
+    color: rgb(255, 255, 255);
+    background-color: #b02734;
+}
+
+.btn.btn-raised:not(.btn-link), .btn-group-raised .btn:not(.btn-link), .input-group-btn .btn.btn-raised:not(.btn-link), .btn-group-raised .input-group-btn .btn:not(.btn-link) {
+    box-shadow: rgba(0, 0, 0, 0.137255) 0px 2px 2px 0px, rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.117647) 0px 1px 5px 0px;
+}
+
+.btn.btn-raised:not(.btn-link):hover, .btn.btn-raised:not(.btn-link):focus, .btn.btn-raised:not(.btn-link).active, .btn.btn-raised:not(.btn-link):active, .btn-group-raised .btn:not(.btn-link):hover, .btn-group-raised .btn:not(.btn-link):focus, .btn-group-raised .btn:not(.btn-link).active, .btn-group-raised .btn:not(.btn-link):active, .input-group-btn .btn.btn-raised:not(.btn-link):hover, .input-group-btn .btn.btn-raised:not(.btn-link):focus, .input-group-btn .btn.btn-raised:not(.btn-link).active, .input-group-btn .btn.btn-raised:not(.btn-link):active, .btn-group-raised .input-group-btn .btn:not(.btn-link):hover, .btn-group-raised .input-group-btn .btn:not(.btn-link):focus, .btn-group-raised .input-group-btn .btn:not(.btn-link).active, .btn-group-raised .input-group-btn .btn:not(.btn-link):active {
+    outline: 0px;
+}
+
+.btn.btn-raised:not(.btn-link):hover, .btn.btn-raised:not(.btn-link):hover.btn-default, .btn.btn-raised:not(.btn-link):focus, .btn.btn-raised:not(.btn-link):focus.btn-default, .btn.btn-raised:not(.btn-link).active, .btn.btn-raised:not(.btn-link).active.btn-default, .btn.btn-raised:not(.btn-link):active, .btn.btn-raised:not(.btn-link):active.btn-default, .btn-group-raised .btn:not(.btn-link):hover, .btn-group-raised .btn:not(.btn-link):hover.btn-default, .btn-group-raised .btn:not(.btn-link):focus, .btn-group-raised .btn:not(.btn-link):focus.btn-default, .btn-group-raised .btn:not(.btn-link).active, .btn-group-raised .btn:not(.btn-link).active.btn-default, .btn-group-raised .btn:not(.btn-link):active, .btn-group-raised .btn:not(.btn-link):active.btn-default, .input-group-btn .btn.btn-raised:not(.btn-link):hover, .input-group-btn .btn.btn-raised:not(.btn-link):hover.btn-default, .input-group-btn .btn.btn-raised:not(.btn-link):focus, .input-group-btn .btn.btn-raised:not(.btn-link):focus.btn-default, .input-group-btn .btn.btn-raised:not(.btn-link).active, .input-group-btn .btn.btn-raised:not(.btn-link).active.btn-default, .input-group-btn .btn.btn-raised:not(.btn-link):active, .input-group-btn .btn.btn-raised:not(.btn-link):active.btn-default, .btn-group-raised .input-group-btn .btn:not(.btn-link):hover, .btn-group-raised .input-group-btn .btn:not(.btn-link):hover.btn-default, .btn-group-raised .input-group-btn .btn:not(.btn-link):focus, .btn-group-raised .input-group-btn .btn:not(.btn-link):focus.btn-default, .btn-group-raised .input-group-btn .btn:not(.btn-link).active, .btn-group-raised .input-group-btn .btn:not(.btn-link).active.btn-default, .btn-group-raised .input-group-btn .btn:not(.btn-link):active, .btn-group-raised .input-group-btn .btn:not(.btn-link):active.btn-default {
+}
+
+.btn.btn-raised:not(.btn-link):hover.btn-inverse, .btn.btn-raised:not(.btn-link):focus.btn-inverse, .btn.btn-raised:not(.btn-link).active.btn-inverse, .btn.btn-raised:not(.btn-link):active.btn-inverse, .btn-group-raised .btn:not(.btn-link):hover.btn-inverse, .btn-group-raised .btn:not(.btn-link):focus.btn-inverse, .btn-group-raised .btn:not(.btn-link).active.btn-inverse, .btn-group-raised .btn:not(.btn-link):active.btn-inverse, .input-group-btn .btn.btn-raised:not(.btn-link):hover.btn-inverse, .input-group-btn .btn.btn-raised:not(.btn-link):focus.btn-inverse, .input-group-btn .btn.btn-raised:not(.btn-link).active.btn-inverse, .input-group-btn .btn.btn-raised:not(.btn-link):active.btn-inverse, .btn-group-raised .input-group-btn .btn:not(.btn-link):hover.btn-inverse, .btn-group-raised .input-group-btn .btn:not(.btn-link):focus.btn-inverse, .btn-group-raised .input-group-btn .btn:not(.btn-link).active.btn-inverse, .btn-group-raised .input-group-btn .btn:not(.btn-link):active.btn-inverse {
+}
+
+.btn.btn-raised:not(.btn-link):hover.btn-primary, .btn.btn-raised:not(.btn-link):focus.btn-primary, .btn.btn-raised:not(.btn-link).active.btn-primary, .btn.btn-raised:not(.btn-link):active.btn-primary, .btn-group-raised .btn:not(.btn-link):hover.btn-primary, .btn-group-raised .btn:not(.btn-link):focus.btn-primary, .btn-group-raised .btn:not(.btn-link).active.btn-primary, .btn-group-raised .btn:not(.btn-link):active.btn-primary, .input-group-btn .btn.btn-raised:not(.btn-link):hover.btn-primary, .input-group-btn .btn.btn-raised:not(.btn-link):focus.btn-primary, .input-group-btn .btn.btn-raised:not(.btn-link).active.btn-primary, .input-group-btn .btn.btn-raised:not(.btn-link):active.btn-primary, .btn-group-raised .input-group-btn .btn:not(.btn-link):hover.btn-primary, .btn-group-raised .input-group-btn .btn:not(.btn-link):focus.btn-primary, .btn-group-raised .input-group-btn .btn:not(.btn-link).active.btn-primary, .btn-group-raised .input-group-btn .btn:not(.btn-link):active.btn-primary {
+}
+
+.btn.btn-raised:not(.btn-link):hover.btn-success, .btn.btn-raised:not(.btn-link):focus.btn-success, .btn.btn-raised:not(.btn-link).active.btn-success, .btn.btn-raised:not(.btn-link):active.btn-success, .btn-group-raised .btn:not(.btn-link):hover.btn-success, .btn-group-raised .btn:not(.btn-link):focus.btn-success, .btn-group-raised .btn:not(.btn-link).active.btn-success, .btn-group-raised .btn:not(.btn-link):active.btn-success, .input-group-btn .btn.btn-raised:not(.btn-link):hover.btn-success, .input-group-btn .btn.btn-raised:not(.btn-link):focus.btn-success, .input-group-btn .btn.btn-raised:not(.btn-link).active.btn-success, .input-group-btn .btn.btn-raised:not(.btn-link):active.btn-success, .btn-group-raised .input-group-btn .btn:not(.btn-link):hover.btn-success, .btn-group-raised .input-group-btn .btn:not(.btn-link):focus.btn-success, .btn-group-raised .input-group-btn .btn:not(.btn-link).active.btn-success, .btn-group-raised .input-group-btn .btn:not(.btn-link):active.btn-success {
+}
+
+.btn.btn-raised:not(.btn-link):hover.btn-info, .btn.btn-raised:not(.btn-link):focus.btn-info, .btn.btn-raised:not(.btn-link).active.btn-info, .btn.btn-raised:not(.btn-link):active.btn-info, .btn-group-raised .btn:not(.btn-link):hover.btn-info, .btn-group-raised .btn:not(.btn-link):focus.btn-info, .btn-group-raised .btn:not(.btn-link).active.btn-info, .btn-group-raised .btn:not(.btn-link):active.btn-info, .input-group-btn .btn.btn-raised:not(.btn-link):hover.btn-info, .input-group-btn .btn.btn-raised:not(.btn-link):focus.btn-info, .input-group-btn .btn.btn-raised:not(.btn-link).active.btn-info, .input-group-btn .btn.btn-raised:not(.btn-link):active.btn-info, .btn-group-raised .input-group-btn .btn:not(.btn-link):hover.btn-info, .btn-group-raised .input-group-btn .btn:not(.btn-link):focus.btn-info, .btn-group-raised .input-group-btn .btn:not(.btn-link).active.btn-info, .btn-group-raised .input-group-btn .btn:not(.btn-link):active.btn-info {
+}
+
+.btn.btn-raised:not(.btn-link):hover.btn-warning, .btn.btn-raised:not(.btn-link):focus.btn-warning, .btn.btn-raised:not(.btn-link).active.btn-warning, .btn.btn-raised:not(.btn-link):active.btn-warning, .btn-group-raised .btn:not(.btn-link):hover.btn-warning, .btn-group-raised .btn:not(.btn-link):focus.btn-warning, .btn-group-raised .btn:not(.btn-link).active.btn-warning, .btn-group-raised .btn:not(.btn-link):active.btn-warning, .input-group-btn .btn.btn-raised:not(.btn-link):hover.btn-warning, .input-group-btn .btn.btn-raised:not(.btn-link):focus.btn-warning, .input-group-btn .btn.btn-raised:not(.btn-link).active.btn-warning, .input-group-btn .btn.btn-raised:not(.btn-link):active.btn-warning, .btn-group-raised .input-group-btn .btn:not(.btn-link):hover.btn-warning, .btn-group-raised .input-group-btn .btn:not(.btn-link):focus.btn-warning, .btn-group-raised .input-group-btn .btn:not(.btn-link).active.btn-warning, .btn-group-raised .input-group-btn .btn:not(.btn-link):active.btn-warning {
+}
+
+.btn.btn-raised:not(.btn-link):hover.btn-danger, .btn.btn-raised:not(.btn-link):focus.btn-danger, .btn.btn-raised:not(.btn-link).active.btn-danger, .btn.btn-raised:not(.btn-link):active.btn-danger, .btn-group-raised .btn:not(.btn-link):hover.btn-danger, .btn-group-raised .btn:not(.btn-link):focus.btn-danger, .btn-group-raised .btn:not(.btn-link).active.btn-danger, .btn-group-raised .btn:not(.btn-link):active.btn-danger, .input-group-btn .btn.btn-raised:not(.btn-link):hover.btn-danger, .input-group-btn .btn.btn-raised:not(.btn-link):focus.btn-danger, .input-group-btn .btn.btn-raised:not(.btn-link).active.btn-danger, .input-group-btn .btn.btn-raised:not(.btn-link):active.btn-danger, .btn-group-raised .input-group-btn .btn:not(.btn-link):hover.btn-danger, .btn-group-raised .input-group-btn .btn:not(.btn-link):focus.btn-danger, .btn-group-raised .input-group-btn .btn:not(.btn-link).active.btn-danger, .btn-group-raised .input-group-btn .btn:not(.btn-link):active.btn-danger {
+}
+
+.btn.btn-raised:not(.btn-link):hover, .btn.btn-raised:not(.btn-link):hover:focus, .btn.btn-raised:not(.btn-link):hover.active, .btn.btn-raised:not(.btn-link):hover.active:focus, .btn.btn-raised:not(.btn-link):hover:active, .btn.btn-raised:not(.btn-link):hover:active:focus, .btn-group-raised .btn:not(.btn-link):hover, .btn-group-raised .btn:not(.btn-link):hover:focus, .btn-group-raised .btn:not(.btn-link):hover.active, .btn-group-raised .btn:not(.btn-link):hover.active:focus, .btn-group-raised .btn:not(.btn-link):hover:active, .btn-group-raised .btn:not(.btn-link):hover:active:focus, .input-group-btn .btn.btn-raised:not(.btn-link):hover, .input-group-btn .btn.btn-raised:not(.btn-link):hover:focus, .input-group-btn .btn.btn-raised:not(.btn-link):hover.active, .input-group-btn .btn.btn-raised:not(.btn-link):hover.active:focus, .input-group-btn .btn.btn-raised:not(.btn-link):hover:active, .input-group-btn .btn.btn-raised:not(.btn-link):hover:active:focus, .btn-group-raised .input-group-btn .btn:not(.btn-link):hover, .btn-group-raised .input-group-btn .btn:not(.btn-link):hover:focus, .btn-group-raised .input-group-btn .btn:not(.btn-link):hover.active, .btn-group-raised .input-group-btn .btn:not(.btn-link):hover.active:focus, .btn-group-raised .input-group-btn .btn:not(.btn-link):hover:active, .btn-group-raised .input-group-btn .btn:not(.btn-link):hover:active:focus {
+    box-shadow: rgba(0, 0, 0, 0.180392) 0px 0px 8px, rgba(0, 0, 0, 0.360784) 0px 8px 16px;
+}
+
+.btn i.material-icons, .input-group-btn .btn i.material-icons {
+    vertical-align: middle;
+    font-size: 17px;
+    top: -1px;
+    position: relative;
+}
+
+.btn.btn-fab.btn-fab-mini.material-icons, .btn-group-sm .btn.btn-fab.material-icons, .input-group-btn .btn.btn-fab.btn-fab-mini.material-icons, .btn-group-sm .input-group-btn .btn.btn-fab.material-icons {
+    top: -3.5px;
+    left: -3.5px;
+}
+
+.btn.btn-fab.btn-fab-mini .material-icons, .btn-group-sm .btn.btn-fab .material-icons, .input-group-btn .btn.btn-fab.btn-fab-mini .material-icons, .btn-group-sm .input-group-btn .btn.btn-fab .material-icons {
+    font-size: 17px;
+}
+
+.btn.btn-fab i.material-icons, .input-group-btn .btn.btn-fab i.material-icons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-12px, -12px);
+    line-height: 24px;
+    width: 24px;
+    font-size: 24px;
+}
+
+.btn.btn-lg, .btn-group-lg .btn, .input-group-btn .btn.btn-lg, .btn-group-lg .input-group-btn .btn {
+    font-size: 14px;
+    padding: 18px 36px;
+}
+
+.btn.btn-sm, .btn-group-sm .btn, .input-group-btn .btn.btn-sm, .btn-group-sm .input-group-btn .btn {
+    padding: 5px 20px;
+    font-size: 11px;
+}
+
+.btn.btn-xs, .btn-group-xs .btn, .input-group-btn .btn.btn-xs, .btn-group-xs .input-group-btn .btn {
+    padding: 4px 15px;
+    font-size: 10px;
+}
+
+fieldset[disabled][disabled] .btn, .btn.disabled, .btn:disabled, .btn[disabled][disabled], fieldset[disabled][disabled] .input-group-btn .btn, .input-group-btn .btn.disabled, .input-group-btn .btn:disabled, .input-group-btn .btn[disabled][disabled], fieldset[disabled][disabled] .btn-group, .btn-group.disabled, .btn-group:disabled, .btn-group[disabled][disabled], fieldset[disabled][disabled] .btn-group-vertical, .btn-group-vertical.disabled, .btn-group-vertical:disabled, .btn-group-vertical[disabled][disabled] {
+    color: rgba(0, 0, 0, 0.258824);
+    background: transparent;
+}
+
+.theme-dark fieldset[disabled][disabled] .btn, .theme-dark .btn.disabled, .theme-dark .btn:disabled, .theme-dark .btn[disabled][disabled], .theme-dark fieldset[disabled][disabled] .input-group-btn .btn, .theme-dark .input-group-btn .btn.disabled, .theme-dark .input-group-btn .btn:disabled, .theme-dark .input-group-btn .btn[disabled][disabled], .theme-dark fieldset[disabled][disabled] .btn-group, .theme-dark .btn-group.disabled, .theme-dark .btn-group:disabled, .theme-dark .btn-group[disabled][disabled], .theme-dark fieldset[disabled][disabled] .btn-group-vertical, .theme-dark .btn-group-vertical.disabled, .theme-dark .btn-group-vertical:disabled, .theme-dark .btn-group-vertical[disabled][disabled] {
+    color: rgba(255, 255, 255, 0.298039);
+}
+
+fieldset[disabled][disabled] .btn.btn-raised, fieldset[disabled][disabled] .btn.btn-raised.active, fieldset[disabled][disabled] .btn.btn-raised:active, fieldset[disabled][disabled] .btn.btn-raised:focus:not(:active), fieldset[disabled][disabled] .btn.btn-group-raised, fieldset[disabled][disabled] .btn.btn-group-raised.active, fieldset[disabled][disabled] .btn.btn-group-raised:active, fieldset[disabled][disabled] .btn.btn-group-raised:focus:not(:active), .btn.disabled.btn-raised, .btn.disabled.btn-raised.active, .btn.disabled.btn-raised:active, .btn.disabled.btn-raised:focus:not(:active), .btn.disabled.btn-group-raised, .btn.disabled.btn-group-raised.active, .btn.disabled.btn-group-raised:active, .btn.disabled.btn-group-raised:focus:not(:active), .btn:disabled.btn-raised, .btn:disabled.btn-raised.active, .btn:disabled.btn-raised:active, .btn:disabled.btn-raised:focus:not(:active), .btn:disabled.btn-group-raised, .btn:disabled.btn-group-raised.active, .btn:disabled.btn-group-raised:active, .btn:disabled.btn-group-raised:focus:not(:active), .btn[disabled][disabled].btn-raised, .btn[disabled][disabled].btn-raised.active, .btn[disabled][disabled].btn-raised:active, .btn[disabled][disabled].btn-raised:focus:not(:active), .btn[disabled][disabled].btn-group-raised, .btn[disabled][disabled].btn-group-raised.active, .btn[disabled][disabled].btn-group-raised:active, .btn[disabled][disabled].btn-group-raised:focus:not(:active), fieldset[disabled][disabled] .input-group-btn .btn.btn-raised, fieldset[disabled][disabled] .input-group-btn .btn.btn-raised.active, fieldset[disabled][disabled] .input-group-btn .btn.btn-raised:active, fieldset[disabled][disabled] .input-group-btn .btn.btn-raised:focus:not(:active), fieldset[disabled][disabled] .input-group-btn .btn.btn-group-raised, fieldset[disabled][disabled] .input-group-btn .btn.btn-group-raised.active, fieldset[disabled][disabled] .input-group-btn .btn.btn-group-raised:active, fieldset[disabled][disabled] .input-group-btn .btn.btn-group-raised:focus:not(:active), .input-group-btn .btn.disabled.btn-raised, .input-group-btn .btn.disabled.btn-raised.active, .input-group-btn .btn.disabled.btn-raised:active, .input-group-btn .btn.disabled.btn-raised:focus:not(:active), .input-group-btn .btn.disabled.btn-group-raised, .input-group-btn .btn.disabled.btn-group-raised.active, .input-group-btn .btn.disabled.btn-group-raised:active, .input-group-btn .btn.disabled.btn-group-raised:focus:not(:active), .input-group-btn .btn:disabled.btn-raised, .input-group-btn .btn:disabled.btn-raised.active, .input-group-btn .btn:disabled.btn-raised:active, .input-group-btn .btn:disabled.btn-raised:focus:not(:active), .input-group-btn .btn:disabled.btn-group-raised, .input-group-btn .btn:disabled.btn-group-raised.active, .input-group-btn .btn:disabled.btn-group-raised:active, .input-group-btn .btn:disabled.btn-group-raised:focus:not(:active), .input-group-btn .btn[disabled][disabled].btn-raised, .input-group-btn .btn[disabled][disabled].btn-raised.active, .input-group-btn .btn[disabled][disabled].btn-raised:active, .input-group-btn .btn[disabled][disabled].btn-raised:focus:not(:active), .input-group-btn .btn[disabled][disabled].btn-group-raised, .input-group-btn .btn[disabled][disabled].btn-group-raised.active, .input-group-btn .btn[disabled][disabled].btn-group-raised:active, .input-group-btn .btn[disabled][disabled].btn-group-raised:focus:not(:active), fieldset[disabled][disabled] .btn-group.btn-raised, fieldset[disabled][disabled] .btn-group.btn-raised.active, fieldset[disabled][disabled] .btn-group.btn-raised:active, fieldset[disabled][disabled] .btn-group.btn-raised:focus:not(:active), fieldset[disabled][disabled] .btn-group.btn-group-raised, fieldset[disabled][disabled] .btn-group.btn-group-raised.active, fieldset[disabled][disabled] .btn-group.btn-group-raised:active, fieldset[disabled][disabled] .btn-group.btn-group-raised:focus:not(:active), .btn-group.disabled.btn-raised, .btn-group.disabled.btn-raised.active, .btn-group.disabled.btn-raised:active, .btn-group.disabled.btn-raised:focus:not(:active), .btn-group.disabled.btn-group-raised, .btn-group.disabled.btn-group-raised.active, .btn-group.disabled.btn-group-raised:active, .btn-group.disabled.btn-group-raised:focus:not(:active), .btn-group:disabled.btn-raised, .btn-group:disabled.btn-raised.active, .btn-group:disabled.btn-raised:active, .btn-group:disabled.btn-raised:focus:not(:active), .btn-group:disabled.btn-group-raised, .btn-group:disabled.btn-group-raised.active, .btn-group:disabled.btn-group-raised:active, .btn-group:disabled.btn-group-raised:focus:not(:active), .btn-group[disabled][disabled].btn-raised, .btn-group[disabled][disabled].btn-raised.active, .btn-group[disabled][disabled].btn-raised:active, .btn-group[disabled][disabled].btn-raised:focus:not(:active), .btn-group[disabled][disabled].btn-group-raised, .btn-group[disabled][disabled].btn-group-raised.active, .btn-group[disabled][disabled].btn-group-raised:active, .btn-group[disabled][disabled].btn-group-raised:focus:not(:active), fieldset[disabled][disabled] .btn-group-vertical.btn-raised, fieldset[disabled][disabled] .btn-group-vertical.btn-raised.active, fieldset[disabled][disabled] .btn-group-vertical.btn-raised:active, fieldset[disabled][disabled] .btn-group-vertical.btn-raised:focus:not(:active), fieldset[disabled][disabled] .btn-group-vertical.btn-group-raised, fieldset[disabled][disabled] .btn-group-vertical.btn-group-raised.active, fieldset[disabled][disabled] .btn-group-vertical.btn-group-raised:active, fieldset[disabled][disabled] .btn-group-vertical.btn-group-raised:focus:not(:active), .btn-group-vertical.disabled.btn-raised, .btn-group-vertical.disabled.btn-raised.active, .btn-group-vertical.disabled.btn-raised:active, .btn-group-vertical.disabled.btn-raised:focus:not(:active), .btn-group-vertical.disabled.btn-group-raised, .btn-group-vertical.disabled.btn-group-raised.active, .btn-group-vertical.disabled.btn-group-raised:active, .btn-group-vertical.disabled.btn-group-raised:focus:not(:active), .btn-group-vertical:disabled.btn-raised, .btn-group-vertical:disabled.btn-raised.active, .btn-group-vertical:disabled.btn-raised:active, .btn-group-vertical:disabled.btn-raised:focus:not(:active), .btn-group-vertical:disabled.btn-group-raised, .btn-group-vertical:disabled.btn-group-raised.active, .btn-group-vertical:disabled.btn-group-raised:active, .btn-group-vertical:disabled.btn-group-raised:focus:not(:active), .btn-group-vertical[disabled][disabled].btn-raised, .btn-group-vertical[disabled][disabled].btn-raised.active, .btn-group-vertical[disabled][disabled].btn-raised:active, .btn-group-vertical[disabled][disabled].btn-raised:focus:not(:active), .btn-group-vertical[disabled][disabled].btn-group-raised, .btn-group-vertical[disabled][disabled].btn-group-raised.active, .btn-group-vertical[disabled][disabled].btn-group-raised:active, .btn-group-vertical[disabled][disabled].btn-group-raised:focus:not(:active) {
+    box-shadow: none;
+}
+
+.btn-group.open > .dropdown-toggle.btn, .btn-group.open > .dropdown-toggle.btn.btn-default, .btn-group-vertical.open > .dropdown-toggle.btn, .btn-group-vertical.open > .dropdown-toggle.btn.btn-default {
+    background-color: rgb(238, 238, 238);
+}
+
+.btn-group.open > .dropdown-toggle.btn.btn-primary, .btn-group-vertical.open > .dropdown-toggle.btn.btn-primary {
+    background-color: rgb(156, 39, 176);
+}
+
+.btn-group.open > .dropdown-toggle.btn.btn-success, .btn-group-vertical.open > .dropdown-toggle.btn.btn-success {
+    background-color: rgb(76, 175, 80);
+}
+
+.btn-group.open > .dropdown-toggle.btn.btn-danger, .btn-group-vertical.open > .dropdown-toggle.btn.btn-danger {
+    background-color: rgb(244, 67, 54);
+}
+
+.btn-group .dropdown-menu, .btn-group-vertical .dropdown-menu {
+    border-radius: 0px 0px 3px 3px;
+}
+
+.btn-group .btn + .btn, .btn-group .btn, .btn-group .btn:active, .btn-group .btn-group, .btn-group-vertical .btn + .btn, .btn-group-vertical .btn, .btn-group-vertical .btn:active, .btn-group-vertical .btn-group {
+    margin: 0px;
+}
+
+.close {
+    font-size: inherit;
+    color: rgb(255, 255, 255);
+    opacity: 0.9;
+    text-shadow: none;
+}
+
+.close:hover, .close:focus {
+    opacity: 1;
+    color: rgb(255, 255, 255);
+}
+
+.close i {
+    font-size: 20px;
+}
+
+.checkbox .checkbox-material .check {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.541176);
+    overflow: hidden;
+    z-index: 1;
+    border-radius: 3px;
+}
+
+.checkbox .checkbox-material .check::before {
+    position: absolute;
+    content: "";
+    transform: rotate(45deg);
+    display: block;
+    margin-top: -3px;
+    margin-left: 7px;
+    width: 0px;
+    height: 0px;
+    box-shadow: 0px 0px 0px 0px, 0px 0px 0px 0px, 0px 0px 0px 0px, 0px 0px 0px 0px, 0px 0px 0px 0px, 0px 0px 0px 0px, 0px 0px 0px 0px inset;
+    animation: checkbox-off 0.3s forwards;
+    background: red;
+}
+
+.checkbox input[type="checkbox"]:focus + .checkbox-material .check::after {
+    opacity: 0.2;
+}
+
+.checkbox input[type="checkbox"]:checked + .checkbox-material .check {
+    background: rgb(156, 39, 176);
+}
+
+.checkbox input[type="checkbox"]:checked + .checkbox-material .check::before {
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 0px 10px, 10px -10px 0px 10px, 32px 0px 0px 20px, 0px 32px 0px 20px, -5px 5px 0px 10px, 20px -12px 0px 11px;
+    animation: checkbox-on 0.3s forwards;
+}
+
+.checkbox input[type="checkbox"]:checked + .checkbox-material .check::after {
+    animation: rippleOn 500ms forwards;
+}
+
+.checkbox input[type="checkbox"]:not(:checked) + .checkbox-material .check::after {
+    animation: rippleOff 500ms;
+}
+
+fieldset[disabled] .checkbox, fieldset[disabled] .checkbox input[type="checkbox"], .checkbox input[type="checkbox"][disabled] ~ .checkbox-material .check, .checkbox input[type="checkbox"][disabled] + .circle {
+    opacity: 0.5;
+}
+
+.checkbox input[type="checkbox"][disabled] ~ .checkbox-material .check {
+    border-color: rgb(0, 0, 0);
+    opacity: 0.26;
+}
+
+.checkbox input[type="checkbox"][disabled] + .checkbox-material .check::after {
+    transform: rotate(-45deg);
+    background-color: rgba(0, 0, 0, 0.870588);
+}
+
+.radio label {
+    cursor: pointer;
+    padding-left: 35px;
+    position: relative;
+    color: rgba(0, 0, 0, 0.258824);
+}
+
+.form-group.is-focused .radio label {
+    color: rgba(0, 0, 0, 0.258824);
+}
+
+.form-group.is-focused .radio label:hover, .form-group.is-focused .radio label:focus {
+    color: rgba(0, 0, 0, 0.541176);
+}
+
+fieldset[disabled] .form-group.is-focused .radio label {
+    color: rgba(0, 0, 0, 0.258824);
+}
+
+.radio label span {
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: 2px;
+    transition-duration: 0.2s;
+}
+
+.radio label .circle {
+    border: 1px solid rgba(0, 0, 0, 0.541176);
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+}
+
+.radio label .check {
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    transform: scale3d(0, 0, 0);
+    background-color: rgb(156, 39, 176);
+}
+
+.radio label .check::after {
+    display: block;
+    position: absolute;
+    content: "";
+    left: -18px;
+    top: -18px;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    z-index: 1;
+    opacity: 0;
+    margin: 0px;
+    transform: scale3d(1.5, 1.5, 1);
+    background-color: rgba(0, 0, 0, 0.870588);
+}
+
+.radio label input[type="radio"]:not(:checked) ~ .check::after {
+    animation: rippleOff 500ms;
+}
+
+.radio label input[type="radio"]:checked ~ .check::after {
+    animation: rippleOn 500ms;
+}
+
+.radio input[type="radio"] {
+    opacity: 0;
+    height: 0px;
+    width: 0px;
+    overflow: hidden;
+}
+
+.radio input[type="radio"]:checked ~ .check, .radio input[type="radio"]:checked ~ .circle {
+    opacity: 1;
+}
+
+.radio input[type="radio"]:checked ~ .check {
+    background-color: #25a24c;
+}
+
+.radio input[type="radio"]:checked ~ .circle {
+    border-color: #25a24c;
+}
+
+.radio input[type="radio"]:checked ~ .check {
+    transform: scale3d(0.65, 0.65, 1);
+}
+
+.radio input[type="radio"][disabled] ~ .check, .radio input[type="radio"][disabled] ~ .circle {
+    opacity: 0.26;
+}
+
+.radio input[type="radio"][disabled] ~ .check {
+    background-color: rgb(0, 0, 0);
+}
+
+.radio input[type="radio"][disabled] ~ .circle {
+    border-color: rgb(0, 0, 0);
+}
+
+legend {
+    margin-bottom: 20px;
+    font-size: 21px;
+}
+
+output {
+    padding-top: 8px;
+    font-size: 14px;
+    line-height: 1.42857;
+}
+
+.form-control {
+    height: 36px;
+    padding: 7px 0px;
+    font-size: 14px;
+    line-height: 1.42857;
+}
+
+.radio label, .checkbox label {
+    min-height: 20px;
+}
+
+.form-group-sm .form-control {
+    height: 24px;
+    padding: 3px 0px;
+    font-size: 11px;
+    line-height: 1.5;
+}
+
+.form-group-sm select.form-control {
+    height: 24px;
+    line-height: 24px;
+}
+
+.form-group-sm textarea.form-control, .form-group-sm select[multiple].form-control {
+    height: auto;
+}
+
+.form-group-lg .form-control {
+    height: 44px;
+    padding: 9px 0px;
+    font-size: 18px;
+    line-height: 1.33333;
+}
+
+.form-group-lg select.form-control {
+    height: 44px;
+    line-height: 44px;
+}
+
+.form-group-lg textarea.form-control, .form-group-lg select[multiple].form-control {
+    height: auto;
+}
+
+.form-horizontal .radio, .form-horizontal .checkbox, .form-horizontal .radio-inline, .form-horizontal .checkbox-inline {
+    padding-top: 8px;
+}
+
+.form-horizontal .radio, .form-horizontal .checkbox {
+    min-height: 28px;
+}
+
+.form-control, .form-group .form-control {
+    border: 0px;
+    transition: background 0s ease-out;
+    float: none;
+    box-shadow: none;
+    border-radius: 0px;
+    font-weight: 400;
+    background-image: linear-gradient(rgb(156, 39, 176), rgb(156, 39, 176)), linear-gradient(rgb(210, 210, 210), rgb(210, 210, 210));
+    background-color: transparent;
+    background-size: 0px 2px, 100% 1px;
+    background-position: center bottom, center calc(100% - 1px);
+    background-repeat: no-repeat;
+}
+
+.form-control::-webkit-input-placeholder, .form-group .form-control::-webkit-input-placeholder {
+    color: rgb(170, 170, 170);
+    font-weight: 400;
+}
+
+.form-control[readonly], .form-control[disabled], fieldset[disabled] .form-control, .form-group .form-control[readonly], .form-group .form-control[disabled], fieldset[disabled] .form-group .form-control {
+    background-color: transparent;
+}
+
+.form-control[disabled], fieldset[disabled] .form-control, .form-group .form-control[disabled], fieldset[disabled] .form-group .form-control {
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: rgb(210, 210, 210);
+    background-image: none;
+}
+
+.form-group {
+    position: relative;
+}
+
+.form-group.label-static label.control-label, .form-group.label-placeholder label.control-label, .form-group.label-floating label.control-label {
+    position: absolute;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.form-group.label-floating label.control-label {
+    will-change: left, top, contents;
+}
+
+.form-group.label-placeholder:not(.is-empty) label.control-label {
+    display: none;
+}
+
+.form-group .help-block {
+    position: absolute;
+    display: none;
+}
+
+.form-group.is-focused .form-control {
+    outline: none;
+    box-shadow: none;
+    transition-duration: 0.3s;
+    background-image: linear-gradient(#3779b3, #3779b3), linear-gradient(rgb(210, 210, 210), rgb(210, 210, 210));
+    background-size: 100% 2px, 100% 1px;
+}
+
+.form-group.is-focused .form-control .material-input::after {
+    background-color: rgb(156, 39, 176);
+}
+
+.form-group.is-focused label, .form-group.is-focused label.control-label {
+    color: #3779b3;
+}
+
+.form-group.is-focused.label-placeholder label, .form-group.is-focused.label-placeholder label.control-label {
+    color: rgb(170, 170, 170);
+}
+
+.form-group.has-warning .form-control {
+    box-shadow: none;
+}
+
+.form-group.has-warning.is-focused .form-control {
+    background-image: linear-gradient(rgb(251, 192, 45), rgb(251, 192, 45)), linear-gradient(rgb(210, 210, 210), rgb(210, 210, 210));
+}
+
+.form-group.has-warning label.control-label, .form-group.has-warning .help-block {
+    color: rgb(251, 192, 45);
+}
+
+.form-group.has-error .form-control {
+    box-shadow: none;
+}
+
+.form-group.has-error.is-focused .form-control {
+    background-image: linear-gradient(rgb(244, 67, 54), rgb(244, 67, 54)), linear-gradient(rgb(210, 210, 210), rgb(210, 210, 210));
+}
+
+.form-group.has-error label.control-label, .form-group.has-error .help-block {
+    color: rgb(244, 67, 54);
+}
+
+.form-group.has-success .form-control {
+    box-shadow: none;
+}
+
+.form-group.has-success.is-focused .form-control {
+    background-image: linear-gradient(rgb(76, 175, 80), rgb(76, 175, 80)), linear-gradient(rgb(210, 210, 210), rgb(210, 210, 210));
+}
+
+.form-group.has-success label.control-label, .form-group.has-success .help-block {
+    color: rgb(76, 175, 80);
+}
+
+.form-group.has-info .form-control {
+    box-shadow: none;
+}
+
+.form-group.has-info.is-focused .form-control {
+    background-image: linear-gradient(rgb(3, 169, 244), rgb(3, 169, 244)), linear-gradient(rgb(210, 210, 210), rgb(210, 210, 210));
+}
+
+.form-group.has-info label.control-label, .form-group.has-info .help-block {
+    color: rgb(3, 169, 244);
+}
+
+.form-group textarea {
+    resize: none;
+}
+
+.form-group textarea ~ .form-control-highlight {
+    margin-top: -11px;
+}
+
+.form-group select {
+}
+
+.form-group select ~ .material-input::after {
+    display: none;
+}
+
+.form-control {
+    margin-bottom: 7px;
+}
+
+.form-control::-webkit-input-placeholder {
+    font-size: 14px;
+    line-height: 1.42857;
+    color: rgb(170, 170, 170);
+    font-weight: 400;
+}
+
+.checkbox label, .radio label, label {
+    font-size: 14px;
+    line-height: 1.42857;
+    color: rgb(170, 170, 170);
+    font-weight: 400;
+}
+
+label.control-label {
+    font-size: 11px;
+    line-height: 1.07143;
+    color: rgb(170, 170, 170);
+    font-weight: 400;
+    margin: 16px 0px 0px;
+}
+
+.form-group {
+    padding-bottom: 7px;
+    margin: 27px 0px 0px;
+}
+
+.form-group .form-control {
+    margin-bottom: 7px;
+}
+
+.form-group .form-control::-webkit-input-placeholder {
+    font-size: 14px;
+    line-height: 1.42857;
+    color: rgb(170, 170, 170);
+    font-weight: 400;
+}
+
+.form-group .checkbox label, .form-group .radio label, .form-group label {
+    font-size: 14px;
+    line-height: 1.42857;
+    color: rgb(170, 170, 170);
+    font-weight: 400;
+}
+
+.form-group label.control-label {
+    font-size: 11px;
+    line-height: 1.07143;
+    color: #666;
+    font-weight: 400;
+    margin: 16px 0px 0px;
+}
+
+.form-group .help-block {
+    margin-top: 0px;
+    font-size: 11px;
+}
+
+.form-group.label-floating label.control-label, .form-group.label-placeholder label.control-label {
+    top: -7px;
+    font-size: 14px;
+    line-height: 1.42857;
+}
+
+.form-group.label-static label.control-label, .form-group.label-floating.is-focused label.control-label, .form-group.label-floating:not(.is-empty) label.control-label {
+    top: -28px;
+    left: 0px;
+    font-size: 11px;
+    line-height: 1.07143;
+}
+
+.form-group.label-floating input.form-control:-webkit-autofill ~ label.control-label label.control-label {
+    top: -28px;
+    left: 0px;
+    font-size: 11px;
+    line-height: 1.07143;
+}
+
+.form-group.form-group-sm .form-control {
+    margin-bottom: 3px;
+}
+
+.form-group.form-group-sm .form-control::-webkit-input-placeholder {
+    font-size: 11px;
+    line-height: 1.5;
+    color: rgb(170, 170, 170);
+    font-weight: 400;
+}
+
+.form-group.form-group-sm .checkbox label, .form-group.form-group-sm .radio label, .form-group.form-group-sm label {
+    font-size: 11px;
+    line-height: 1.5;
+    color: rgb(170, 170, 170);
+    font-weight: 400;
+}
+
+.form-group.form-group-sm label.control-label {
+    font-size: 9px;
+    line-height: 1.125;
+    color: rgb(170, 170, 170);
+    font-weight: 400;
+    margin: 16px 0px 0px;
+}
+
+.form-group.form-group-sm.label-floating label.control-label, .form-group.form-group-sm.label-placeholder label.control-label {
+    top: -11px;
+    font-size: 11px;
+    line-height: 1.5;
+}
+
+.form-group.form-group-sm.label-static label.control-label, .form-group.form-group-sm.label-floating.is-focused label.control-label, .form-group.form-group-sm.label-floating:not(.is-empty) label.control-label {
+    top: -25px;
+    left: 0px;
+    font-size: 9px;
+    line-height: 1.125;
+}
+
+.form-group.form-group-sm.label-floating input.form-control:-webkit-autofill ~ label.control-label label.control-label {
+    top: -25px;
+    left: 0px;
+    font-size: 9px;
+    line-height: 1.125;
+}
+
+.form-group.form-group-lg .form-control {
+    margin-bottom: 9px;
+}
+
+.form-group.form-group-lg .form-control::-webkit-input-placeholder {
+    font-size: 18px;
+    line-height: 1.33333;
+    color: rgb(170, 170, 170);
+    font-weight: 400;
+}
+
+.form-group.form-group-lg .checkbox label, .form-group.form-group-lg .radio label, .form-group.form-group-lg label {
+    font-size: 18px;
+    line-height: 1.33333;
+    color: rgb(170, 170, 170);
+    font-weight: 400;
+}
+
+.form-group.form-group-lg label.control-label {
+    font-size: 14px;
+    line-height: 1;
+    color: rgb(170, 170, 170);
+    font-weight: 400;
+    margin: 16px 0px 0px;
+}
+
+.form-group.form-group-lg.label-floating label.control-label, .form-group.form-group-lg.label-placeholder label.control-label {
+    top: -5px;
+    font-size: 18px;
+    line-height: 1.33333;
+}
+
+.form-group.form-group-lg.label-static label.control-label, .form-group.form-group-lg.label-floating.is-focused label.control-label, .form-group.form-group-lg.label-floating:not(.is-empty) label.control-label {
+    top: -32px;
+    left: 0px;
+    font-size: 14px;
+    line-height: 1;
+}
+
+.form-group.form-group-lg.label-floating input.form-control:-webkit-autofill ~ label.control-label label.control-label {
+    top: -32px;
+    left: 0px;
+    font-size: 14px;
+    line-height: 1;
+}
+
+select.form-control {
+    border: 0px;
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+.form-group.is-focused select.form-control {
+    box-shadow: none;
+    border-color: rgb(210, 210, 210);
+}
+
+.input-group-btn .btn {
+    margin: 0px 0px 7px;
+}
+
+.form-group.form-group-sm .input-group-btn .btn {
+    margin: 0px 0px 3px;
+}
+
+.form-group.form-group-lg .input-group-btn .btn {
+    margin: 0px 0px 9px;
+}
+
+.input-group .input-group-btn {
+    padding: 0px 12px;
+}
+
+.input-group .input-group-addon {
+    border: 0px;
+    padding: 12px 15px 0px;
+    background: transparent;
+}
+
+.form-group input[type="file"] {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+
+footer {
+    padding: 15px 0px;
+}
+
+footer ul {
+    margin-bottom: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+footer ul li a {
+    color: inherit;
+    padding: 15px;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    text-decoration: none;
+    position: relative;
+    display: block;
+}
+
+footer ul li a:hover {
+    text-decoration: none;
+}
+
+footer .copyright .material-icons {
+    font-size: 18px;
+    position: relative;
+    top: 3px;
+}
+
+legend {
+    border-bottom-width: 0px;
+}
+
+.navbar .navbar-nav > li > a .material-icons, .navbar .navbar-nav > li > a .fa {
+    font-size: 20px;
+    margin: -3px 4px 0px;
+}
+
+.navbar .navbar-nav > li > .dropdown-menu {
+    margin-top: -20px;
+}
+
+.navbar .navbar-nav > li.open > .dropdown-menu {
+    margin-top: 0px;
+}
+
+.navbar .navbar-nav > .disabled > a, .navbar .navbar-nav > .disabled > a:hover, .navbar .navbar-nav > .disabled > a:focus {
+    color: inherit;
+    opacity: 0.9;
+    background-color: transparent;
+}
+
+.navbar .btn {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.navbar .navbar-form .form-group {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar .navbar-form .form-group .material-input::before, .navbar .navbar-form .form-group.is-focused .material-input::after {
+    background-color: inherit;
+}
+
+.navbar .navbar-form .form-group .form-control, .navbar .navbar-form .form-control {
+    border-color: inherit;
+    color: inherit;
+    padding: 0px;
+    margin: 0px;
+    height: 28px;
+    font-size: 14px;
+    line-height: 1.42857;
+}
+
+.navbar .navbar-form .form-group input.form-control::-webkit-input-placeholder, .navbar .navbar-form input.form-control::-webkit-input-placeholder, .navbar.navbar-default .navbar-form .form-group input.form-control::-webkit-input-placeholder, .navbar.navbar-default .navbar-form input.form-control::-webkit-input-placeholder {
+    color: rgb(255, 255, 255);
+}
+
+.navbar .dropdown-menu, .navbar.navbar-default .dropdown-menu {
+    border-radius: 3px !important;
+}
+
+.navbar .dropdown-menu li > a:hover, .navbar .dropdown-menu li > a:focus, .navbar.navbar-default .dropdown-menu li > a:hover, .navbar.navbar-default .dropdown-menu li > a:focus {
+    color: rgb(255, 255, 255);
+    background-color: rgb(156, 39, 176);
+}
+
+.navbar .dropdown-menu .active > a, .navbar.navbar-default .dropdown-menu .active > a {
+    color: rgb(255, 255, 255);
+    background-color: rgb(156, 39, 176);
+}
+
+.navbar .dropdown-menu .active > a:hover, .navbar .dropdown-menu .active > a:focus, .navbar.navbar-default .dropdown-menu .active > a:hover, .navbar.navbar-default .dropdown-menu .active > a:focus {
+    color: rgb(255, 255, 255);
+}
+
+.navbar.navbar-inverse .navbar-form .form-group input.form-control::-webkit-input-placeholder, .navbar.navbar-inverse .navbar-form input.form-control::-webkit-input-placeholder {
+}
+
+.navbar.navbar-inverse .dropdown-menu {
+    border-radius: 3px !important;
+}
+
+.navbar.navbar-inverse .dropdown-menu li > a:hover, .navbar.navbar-inverse .dropdown-menu li > a:focus {
+    color: rgb(255, 255, 255);
+    background-color: rgb(63, 81, 181);
+}
+
+.navbar.navbar-inverse .dropdown-menu .active > a {
+    background-color: rgb(63, 81, 181);
+}
+
+.navbar.navbar-inverse .dropdown-menu .active > a:hover, .navbar.navbar-inverse .dropdown-menu .active > a:focus {
+}
+
+.navbar.navbar-primary .navbar-form .form-group input.form-control::-webkit-input-placeholder, .navbar.navbar-primary .navbar-form input.form-control::-webkit-input-placeholder {
+    color: rgb(255, 255, 255);
+}
+
+.navbar.navbar-primary .dropdown-menu {
+    border-radius: 3px !important;
+}
+
+.navbar.navbar-primary .dropdown-menu li > a:hover, .navbar.navbar-primary .dropdown-menu li > a:focus {
+    color: rgb(255, 255, 255);
+    background-color: rgb(156, 39, 176);
+}
+
+.navbar.navbar-primary .dropdown-menu .active > a {
+    color: rgb(255, 255, 255);
+    background-color: rgb(156, 39, 176);
+}
+
+.navbar.navbar-primary .dropdown-menu .active > a:hover, .navbar.navbar-primary .dropdown-menu .active > a:focus {
+    color: rgb(255, 255, 255);
+}
+
+.navbar.navbar-success .navbar-form .form-group input.form-control::-webkit-input-placeholder, .navbar.navbar-success .navbar-form input.form-control::-webkit-input-placeholder {
+    color: rgb(255, 255, 255);
+}
+
+.navbar.navbar-success .dropdown-menu {
+    border-radius: 3px !important;
+}
+
+.navbar.navbar-success .dropdown-menu li > a:hover, .navbar.navbar-success .dropdown-menu li > a:focus {
+    color: rgb(255, 255, 255);
+    background-color: rgb(76, 175, 80);
+}
+
+.navbar.navbar-success .dropdown-menu .active > a {
+    color: rgb(255, 255, 255);
+    background-color: rgb(76, 175, 80);
+}
+
+.navbar.navbar-success .dropdown-menu .active > a:hover, .navbar.navbar-success .dropdown-menu .active > a:focus {
+    color: rgb(255, 255, 255);
+}
+
+.navbar.navbar-info .navbar-form .form-group input.form-control::-webkit-input-placeholder, .navbar.navbar-info .navbar-form input.form-control::-webkit-input-placeholder {
+    color: rgb(255, 255, 255);
+}
+
+.navbar.navbar-info .dropdown-menu {
+    border-radius: 3px !important;
+}
+
+.navbar.navbar-info .dropdown-menu li > a:hover, .navbar.navbar-info .dropdown-menu li > a:focus {
+    color: rgb(255, 255, 255);
+    background-color: rgb(3, 169, 244);
+}
+
+.navbar.navbar-info .dropdown-menu .active > a {
+    color: rgb(255, 255, 255);
+    background-color: rgb(3, 169, 244);
+}
+
+.navbar.navbar-info .dropdown-menu .active > a:hover, .navbar.navbar-info .dropdown-menu .active > a:focus {
+    color: rgb(255, 255, 255);
+}
+
+.navbar.navbar-warning .navbar-form .form-group input.form-control::-webkit-input-placeholder, .navbar.navbar-warning .navbar-form input.form-control::-webkit-input-placeholder {
+    color: rgb(255, 255, 255);
+}
+
+.navbar.navbar-warning .dropdown-menu {
+    border-radius: 3px !important;
+}
+
+.navbar.navbar-warning .dropdown-menu li > a:hover, .navbar.navbar-warning .dropdown-menu li > a:focus {
+    color: rgb(255, 255, 255);
+    background-color: rgb(251, 192, 45);
+}
+
+.navbar.navbar-warning .dropdown-menu .active > a {
+    color: rgb(255, 255, 255);
+    background-color: rgb(251, 192, 45);
+}
+
+.navbar.navbar-warning .dropdown-menu .active > a:hover, .navbar.navbar-warning .dropdown-menu .active > a:focus {
+    color: rgb(255, 255, 255);
+}
+
+.navbar.navbar-danger .navbar-form .form-group input.form-control::-webkit-input-placeholder, .navbar.navbar-danger .navbar-form input.form-control::-webkit-input-placeholder {
+    color: rgb(255, 255, 255);
+}
+
+.navbar.navbar-danger .dropdown-menu {
+    border-radius: 3px !important;
+}
+
+.navbar.navbar-danger .dropdown-menu li > a:hover, .navbar.navbar-danger .dropdown-menu li > a:focus {
+    color: rgb(255, 255, 255);
+    background-color: rgb(244, 67, 54);
+}
+
+.navbar.navbar-danger .dropdown-menu .active > a {
+    color: rgb(255, 255, 255);
+    background-color: rgb(244, 67, 54);
+}
+
+.navbar.navbar-danger .dropdown-menu .active > a:hover, .navbar.navbar-danger .dropdown-menu .active > a:focus {
+    color: rgb(255, 255, 255);
+}
+
+.dropdown-menu {
+    border: 0px;
+    box-shadow: rgba(0, 0, 0, 0.258824) 0px 2px 5px 0px;
+    transition: all 150ms linear;
+    margin-top: -20px;
+    opacity: 0;
+    visibility: hidden;
+    display: block;
+}
+
+.open .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    margin-top: 1px;
+}
+
+.dropdown-menu .divider {
+    background-color: rgba(0, 0, 0, 0.117647);
+}
+
+.dropdown-menu li > a {
+    font-size: 13px;
+    padding: 10px 20px;
+    margin: 0px 5px;
+    border-radius: 2px;
+    transition: all 150ms linear;
+}
+
+.dropdown-menu li > a:hover, .dropdown-menu li > a:focus {
+    box-shadow: rgba(0, 0, 0, 0.137255) 0px 8px 10px 1px, rgba(0, 0, 0, 0.117647) 0px 3px 14px 2px, rgba(0, 0, 0, 0.2) 0px 5px 5px -3px;
+}
+
+.dropdown-menu li {
+    position: relative;
+}
+
+.dropdown-menu li a:hover, .dropdown-menu li a:focus, .dropdown-menu li a:active {
+    color: rgb(255, 255, 255);
+    background-color: #3779b3;
+}
+
+.dropdown-menu .divider {
+    margin: 5px 0px;
+}
+
+.nav-tabs > li.disabled > a, .nav-tabs > li.disabled > a:hover {
+    color: rgba(255, 255, 255, 0.498039);
+}
+
+.nav-tabs > li .material-icons {
+    margin: -1px 5px 0px 0px;
+}
+
+.carousel .carousel-control .material-icons, .carousel .carousel-control .fa {
+    display: none;
+}
+
+.carousel .carousel-caption .material-icons {
+    position: relative;
+    top: 5px;
+}
+
+.card {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    border-radius: 3px;
+    color: rgba(0, 0, 0, 0.870588);
+    box-shadow: rgba(0, 0, 0, 0.137255) 0px 2px 2px 0px, rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.117647) 0px 1px 5px 0px;
+    background: rgb(255, 255, 255);
+    padding: initial;
+    min-width: initial;
+    max-width: initial;
+}
+
+.card .card-height-indicator {
+    margin-top: 100%;
+}
+
+.card .card-content {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.card .card-image {
+    height: 60%;
+    position: relative;
+    overflow: hidden;
+}
+
+.card .card-image img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    pointer-events: none;
+}
+
+.card .card-image .card-image-headline {
+    position: absolute;
+    bottom: 16px;
+    left: 18px;
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+}
+
+.card .content {
+    padding: 15px;
+}
+
+.card .card-body {
+    height: 30%;
+    padding: 18px;
+}
+
+.card .card-footer {
+    height: 10%;
+    padding: 18px;
+}
+
+.card .card-footer button, .card .card-footer a {
+    position: relative;
+    bottom: 25px;
+    width: auto;
+    margin: 0px !important;
+}
+
+.card .card-footer button:first-child, .card .card-footer a:first-child {
+    left: -15px;
+}
+
+.card .header {
+    box-shadow: rgba(0, 0, 0, 0.560784) 0px 16px 38px -12px, rgba(0, 0, 0, 0.117647) 0px 4px 25px 0px, rgba(0, 0, 0, 0.2) 0px 8px 10px -5px;
+    margin: 15px;
+    border-radius: 3px;
+    padding: 15px 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+.card .header-primary {
+    background: #3779b3;
+}
+
+.card .header-info {
+    background: linear-gradient(60deg, rgb(41, 182, 246), rgb(2, 136, 209));
+}
+
+.card .header-success {
+    background: linear-gradient(60deg, rgb(102, 187, 106), rgb(56, 142, 60));
+}
+
+.card .header-warning {
+    background: linear-gradient(60deg, rgb(253, 216, 53), rgb(251, 192, 45));
+}
+
+.card .header-danger {
+    background: linear-gradient(60deg, rgb(239, 83, 80), rgb(211, 47, 47));
+}
+
+.card [class*="header-"] {
+    color: rgb(255, 255, 255);
+}
+
+.card-signup .header {
+    box-shadow: rgba(0, 0, 0, 0.560784) 0px 16px 38px -12px, rgba(0, 0, 0, 0.117647) 0px 4px 25px 0px, rgba(0, 0, 0, 0.2) 0px 8px 10px -5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -40px;
+    padding: 20px 0px;
+}
+
+.card-signup .text-divider {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.card-signup .content {
+    padding: 0px 30px 0px 10px;
+}
+
+.card-signup .checkbox {
+    margin-top: 20px;
+}
+
+.card-signup .checkbox label {
+    margin-left: 17px;
+}
+
+.card-signup .checkbox .checkbox-material {
+    padding-right: 12px;
+}
+
+.card-signup .social-line {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.card-signup .social-line .btn {
+    color: rgb(255, 255, 255);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.card-nav-tabs .header {
+    margin-top: -30px;
+}
+
+.card-plain .header {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.modal-content {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 27px 24px 0px, rgba(0, 0, 0, 0.219608) 0px 40px 77px 0px;
+    border-radius: 3px;
+    border: none;
+}
+
+.modal-content .modal-header {
+    border-bottom-style: none;
+    padding: 24px 24px 0px;
+}
+
+.modal-content .modal-body {
+    padding: 24px 24px 16px;
+}
+
+.modal-content .modal-footer {
+    border-top-style: none;
+    padding: 7px;
+}
+
+.modal-content .modal-footer button {
+    margin: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: auto;
+}
+
+.modal-content .modal-footer button.pull-left {
+    padding-left: 5px;
+    padding-right: 5px;
+    position: relative;
+    left: -5px;
+}
+
+.modal-content .modal-footer button + button {
+    margin-bottom: 16px;
+}
+
+.modal-content .modal-body + .modal-footer {
+    padding-top: 0px;
+}
+
+.modal .modal-dialog {
+    margin-top: 100px;
+}
+
+.modal .modal-header .close {
+    color: rgb(85, 85, 85);
+}
+
+.modal .modal-header .close:hover, .modal .modal-header .close:focus {
+    opacity: 1;
+    color: rgb(85, 85, 85);
+}
+
+.panel {
+    border-radius: 2px;
+    border: 0px;
+    box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px 0px, rgba(0, 0, 0, 0.117647) 0px 1px 6px 0px;
+}
+
+.panel > .panel-heading, .panel.panel-default > .panel-heading {
+    background-color: rgb(238, 238, 238);
+}
+
+.panel.panel-inverse > .panel-heading {
+    background-color: rgb(63, 81, 181);
+}
+
+.panel.panel-primary > .panel-heading {
+    background-color: #2599c5;
+}
+
+.panel.panel-success > .panel-heading {
+    background-color: rgb(76, 175, 80);
+}
+
+.panel.panel-info > .panel-heading {
+    background-color: rgb(3, 169, 244);
+}
+
+.panel.panel-warning > .panel-heading {
+    background-color: rgb(251, 192, 45);
+}
+
+.panel.panel-danger > .panel-heading {
+    background-color: rgb(244, 67, 54);
+}
+
+[class*="panel-"] > .panel-heading {
+    color: rgb(255, 255, 255);
+    border: 0px;
+}
+
+.panel-default > .panel-heading, .panel:not([class*="panel-"]) > .panel-heading {
+    color: rgba(0, 0, 0, 0.870588);
+}
+
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+:focus {
+    outline: 0px;
+}
+
+.datepicker {
+    top: 0px;
+    left: 0px;
+    padding: 4px;
+    margin-top: 1px;
+    border-radius: 4px;
+}
+
+.datepicker > div {
+    display: none;
+}
+
+.datepicker table {
+    width: 100%;
+    margin: 0px;
+}
+
+.datepicker td, .datepicker th {
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+}
+
+.datepicker td {
+    text-align: center;
+}
+
+.datepicker td p {
+    font-size: 1em;
+    font-weight: 400;
+    border-radius: 50%;
+    height: 29px;
+    line-height: 29px;
+    margin: 3px 0px 8px;
+    width: 29px;
+}
+
+.datepicker td :hover {
+    cursor: pointer;
+}
+
+.datepicker th {
+    font-weight: 500;
+}
+
+.datepicker th.switch-datepicker {
+    font-size: 1em;
+}
+
+.datepicker .prev p, .datepicker .next p {
+    font-size: 1.825em;
+}
+
+.datepicker p:hover {
+    background: rgb(238, 238, 238);
+}
+
+.datepicker .day.disabled {
+    color: rgb(238, 238, 238);
+}
+
+.datepicker td.old, .datepicker td.new {
+    color: rgb(153, 153, 153);
+    border-top-width: 0px;
+}
+
+.datepicker td.active p, .datepicker td.active:hover p {
+    box-shadow: rgba(0, 0, 0, 0.137255) 0px 4px 5px 0px, rgba(0, 0, 0, 0.117647) 0px 1px 10px 0px, rgba(0, 0, 0, 0.2) 0px 2px 4px -1px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(156, 39, 176);
+}
+
+.datepicker td.primary p, .datepicker td.primary:hover p {
+    background-color: rgb(156, 39, 176);
+}
+
+.datepicker td.info p, .datepicker td.info:hover p {
+    background-color: rgb(3, 169, 244);
+}
+
+.datepicker td.success p, .datepicker td.success:hover p {
+    background-color: rgb(76, 175, 80);
+}
+
+.datepicker td.warning p, .datepicker td.warning:hover p {
+    background-color: rgb(251, 192, 45);
+}
+
+.datepicker td.danger p, .datepicker td.danger:hover p {
+    background-color: rgb(244, 67, 54);
+}
+
+.datepicker span {
+    display: block;
+    width: 55px;
+    height: 54px;
+    line-height: 54px;
+    float: left;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.datepicker span.old {
+    color: rgb(153, 153, 153);
+}
+
+.datepicker span.active, .datepicker span.active:focus, .datepicker span.active:hover, .datepicker span.active:active {
+    box-shadow: rgba(0, 0, 0, 0.137255) 0px 4px 5px 0px, rgba(0, 0, 0, 0.117647) 0px 1px 10px 0px, rgba(0, 0, 0, 0.2) 0px 2px 4px -1px;
+    background-color: rgb(156, 39, 176);
+}
+
+.datepicker span.active {
+    color: rgb(255, 255, 255);
+}
+
+.datepicker span:hover {
+    background-color: rgb(238, 238, 238);
+}
+
+.datepicker span.primary, .datepicker span.primary:hover {
+    background-color: rgb(156, 39, 176);
+}
+
+.datepicker span.info, .datepicker span.info:hover {
+    background-color: rgb(3, 169, 244);
+}
+
+.datepicker span.success, .datepicker span.success:hover {
+    background-color: rgb(76, 175, 80);
+}
+
+.datepicker span.warning, .datepicker span.warning:hover {
+    background-color: rgb(251, 192, 45);
+}
+
+.datepicker span.danger, .datepicker span.danger:hover {
+    background-color: rgb(244, 67, 54);
+}
+
+.datepicker th.switch-datepicker {
+    width: 145px;
+}
+
+.datepicker th.next, .datepicker th.prev {
+    font-size: 21px;
+}
+
+.datepicker thead tr:first-child th {
+    cursor: pointer;
+}
+
+.datepicker thead tr:first-child th:hover {
+    background: rgb(238, 238, 238);
+}
+
+.datepicker.dropdown-menu {
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.560784) 0px 16px 38px -12px, rgba(0, 0, 0, 0.117647) 0px 4px 25px 0px, rgba(0, 0, 0, 0.2) 0px 8px 10px -5px;
+    transition: all 150ms linear;
+    margin-top: -20px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.datepicker .table-condensed > tbody > tr > td {
+    padding: 2px;
+}
+
+.datepicker .table-condensed > thead > tr > th {
+    padding: 0px;
+}
+
+.wrapper > .header {
+    min-height: 300px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.header-filter .container {
+    z-index: 2;
+    position: relative;
+}
+
+.index-page .wrapper > .header {
+    height: 90vh;
+}
+
+.landing-page .header {
+    height: 100vh;
+}
+
+.landing-page .header .container {
+    padding-top: 26vh;
+    color: rgb(255, 255, 255);
+}
+
+.landing-page .header .share {
+    margin-top: 150px;
+}
+
+.landing-page .header h1 {
+    font-weight: 600;
+}
+
+.landing-page .header .title {
+    color: rgb(255, 255, 255);
+}
+
+.landing-page .wrapper {
+    background: rgb(204, 204, 204);
+}
+
+.profile-page .header {
+    height: 380px;
+    background-position: center top;
+}
+
+.siscpa .wrapper > .header {
+    min-height: 100vh;
+}
+
+.siscpa .wrapper .card-signup {
+    margin: 50px 0px 40px;
+}
+
+.siscpa .footer .copyright, .siscpa .footer a {
+    color: rgb(255, 255, 255);
+}
+
+.landing-page .navbar-transparent, .profile-page .navbar-transparent, .siscpa .navbar-transparent, .index-page .navbar-transparent {
+    padding-top: 25px;
+}
+
+.nav-pills > li > a {
+    line-height: 24px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    min-width: 100px;
+    text-align: center;
+    color: #555555;
+    transition: all .3s;
+}
+
+.nav-pills > li i {
+    display: block;
+    font-size: 30px;
+    padding: 15px 0;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+    background-color: #3779b3;
+    color: #FFFFFF;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.nav-pills.nav-pills-info > li.active > a, .nav-pills.nav-pills-info > li.active > a:focus, .nav-pills.nav-pills-info > li.active > a:hover {
+    background-color: #03a9f4;
+}
+
+.nav-pills.nav-pills-success > li.active > a, .nav-pills.nav-pills-success > li.active > a:focus, .nav-pills.nav-pills-success > li.active > a:hover {
+    background-color: #4caf50;
+}
+
+.nav-pills.nav-pills-warning > li.active > a, .nav-pills.nav-pills-warning > li.active > a:focus, .nav-pills.nav-pills-warning > li.active > a:hover {
+    background-color: #fbc02d;
+}
+
+.nav-pills.nav-pills-danger > li.active > a, .nav-pills.nav-pills-danger > li.active > a:focus, .nav-pills.nav-pills-danger > li.active > a:hover {
+    background-color: #f44336;
+}
+
+.nav-align-center {
+    text-align: center;
+}
+
+.nav-align-center .nav-pills {
+    display: inline-block;
+}
+
+.alert {
+    border: 0;
+    border-radius: 0;
+    padding: 20px 15px;
+    line-height: 20px;
+}
+.alert b {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.alert, .alert.alert-default {
+    background-color: white;
+    color: #ffffff;
+}
+.alert a, .alert .alert-link, .alert.alert-default a, .alert.alert-default .alert-link {
+    color: #ffffff;
+}
+.alert.alert-inverse {
+    background-color: #4558be;
+    color: contrast-color(#3f51b5, #000000, #ffffff);
+}
+.alert.alert-inverse a, .alert.alert-inverse .alert-link {
+    color: contrast-color(#3f51b5, #000000, #ffffff);
+}
+.alert.alert-primary {
+    background-color: #a72abd;
+    color: #ffffff;
+}
+.alert.alert-primary a, .alert.alert-primary .alert-link {
+    color: #ffffff;
+}
+.alert.alert-success {
+    background-color: #55b559;
+    color: #ffffff;
+}
+.alert.alert-success a, .alert.alert-success .alert-link {
+    color: #ffffff;
+}
+.alert.alert-info {
+    background-color: #0ab1fc;
+    color: #ffffff;
+}
+.alert.alert-info a, .alert.alert-info .alert-link {
+    color: #ffffff;
+}
+.alert.alert-warning {
+    background-color: #fbc53c;
+    color: #ffffff;
+}
+.alert.alert-warning a, .alert.alert-warning .alert-link {
+    color: #ffffff;
+}
+.alert.alert-danger {
+    background-color: #f55145;
+    color: #ffffff;
+}
+.alert.alert-danger a, .alert.alert-danger .alert-link {
+    color: #ffffff;
+}
+.alert-info, .alert-danger, .alert-warning, .alert-success {
+    color: #ffffff;
+}
+.alert-default a, .alert-default .alert-link {
+    color: rgba(0,0,0, 0.87);
+}
+.alert .alert-icon {
+    display: block;
+    float: left;
+    margin-right: 15px;
+}
+.alert .alert-icon i {
+    margin-top: -7px;
+    top: 5px;
+    position: relative;
+}
+
+.alert-dismissable .close, .alert-dismissible .close{
+    top: initial;
+    right: initial;
+}
+
+.progress {
+    height: 20px;
+    border-radius: 0;
+    box-shadow: none;
+    background: #DDDDDD;
+}
+
+.progress .progress-bar {
+    box-shadow: none;
+}
+
+.progress .progress-bar, .progress .progress-bar.progress-bar-default {
+    background-color: #3779b3;
+}
+.progress .progress-bar.progress-bar-inverse {
+    background-color: #3f51b5;
+}
+.progress .progress-bar.progress-bar-primary {
+    background-color: #9c27b0;
+}
+.progress .progress-bar.progress-bar-success {
+    background-color: #4caf50;
+}
+.progress .progress-bar.progress-bar-info {
+    background-color: #03a9f4;
+}
+.progress .progress-bar.progress-bar-warning {
+    background-color: #fbc02d;
+}
+.progress .progress-bar.progress-bar-danger {
+    background-color: #f44336;
+}
+.progress.progress-line-primary {
+    background: rgba(156, 39, 176, 0.2);
+}
+.progress.progress-line-info {
+    background: rgba(3, 169, 244, 0.2);
+}
+.progress.progress-line-success {
+    background: rgba(76, 175, 80, 0.2);
+}
+.progress.progress-line-warning {
+    background: rgba(251, 192, 45, 0.2);
+}
+.progress.progress-line-danger {
+    background: rgba(244, 67, 54, 0.2);
+}
+
+.panel-body-list {
+    padding: 0;
+}
+
+.list-group-panel {
+    margin-bottom: 0;
+}
+
+.list-group-panel > .list-group-item:first-child {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.list-group-panel > .list-group-item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.btn-list {
+    margin: 0;
+}
+
+.p-list {
+    margin: auto;
+    padding-right: 2.5%;
+}
+
+ol > li {
+    padding-bottom: 2%;
+}
+
+.desc {
+    text-indent: 1.5cm;
+    margin-left: 3%;
+    margin-right: 4%;
+}
+
+.dropdown-menu li > a {
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+}
+
+.dropdown-menu li a.active {
+    background-color: #9c27b0;
+    color: #FFFFFF;
+}
+
+.col-form {
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+
+.questionario-form {
+    margin: 10px 0 0 0;
+}
+
+.tipo-usuario {
+    margin: 20px 0 0 0;
+}
+
+.checkbox label, .radio label, label {
+    color: #2d2d2d;
+}
+
+input[type=date]::-webkit-clear-button {
+    display: none;
+}
+
+input[type=date]::-webkit-inner-spin-button {
+    display: none;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator:hover {
+    background-color: transparent;
+    color: #e6e6e6;
+    cursor: pointer;
+}
+
+.cadastro_questionario, .cadastro_questionario > .panel-heading{
+    background: #E6E6E6 !important;
+}
+
+.cadastro_questionario > .panel-heading{
+    box-shadow: rgba(0, 0, 0, 0.560784) 0px 16px 38px -12px, rgba(0, 0, 0, 0.117647) 0px 4px 25px 0px, rgba(0, 0, 0, 0.2) 0px 8px 10px -5px;
+}
+
+.cadastro_questionario> h4, .cadastro_questionario > .panel-heading > h4{
+    color: #000;
+}
+
+.text-justify:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+}
+
+.questionario_opcoes{
+    display: flex;
+    justify-content: space-around;
+}
